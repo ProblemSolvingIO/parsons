@@ -28,11 +28,11 @@ References
 2. Ihantola, P., & Karavirta, V. (2011).
    `Two-dimensional parson’s puzzles: The concept, tools, and first observations <http://jite.org/documents/Vol10/JITEv10IIPp119-132Ihantola944.pdf>`_.
    Journal of Information Technology Education, 10, 119-132.
-3. `CS Teaching Tips - Use Parson’s Puzzles to help students engage with a concept without writing code or experiencing frustrating syntax errors <http://csteachingtips.org/tip/use-parson%E2%80%99s-puzzles-help-students-engage-concept-without-writing-code-or-experiencing>`_
+3. `CS Teaching Tips - Use Parson’s Puzzles to help students engage with a concept without writing code or experiencing frustrating syntax errors <http://csteachingtips.org/tip/use-parson%E2%80%99s-puzzles-help-students-engage-concept-without-writing-code-or-experiencing>`_.
 
 TODO
 ----
-- Use the better version of [Runstone](http://runestoneinteractive.org/build/html/directives/parsons.html)
+- Use the better version of `Runstone <http://runestoneinteractive.org/build/html/directives/parsons.html>`_.
 - Add tests
 - Various view: stand-alone, embedded, LTI
 - Problem library
