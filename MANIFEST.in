@@ -1,0 +1,5 @@
+include LICENSE
+graft parsons/static
+graft parsons/templates
+graft tests
+global-exclude *.pyc

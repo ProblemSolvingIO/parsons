@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <style type="text/css" media="screen">
+      #editor { 
+        width: 100%;
+        height: 200px;
+        position: relative;
+          #top: 0;
+          #right: 0;
+          #bottom: 0;
+          #left: 0;
+      }
+  </style>
+
+{% endblock %}
+
+{% block content %}
+  <h1>{% block title %}Create Parsons Puzzle{% endblock %}</h1>
+
+  <form method="post">
+    <label for="title">Title</label>
+    <input name="title" id="title" required>
+    <label for="code">Code</label>
+    <div id="editor"></div>
+    <textarea name="code" style="display: none;"></textarea>
+    <input type="submit" value="Save">
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.3/ace.js"></script>
+  <script>
+  $(function(){ 
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/github");
+    editor.session.setMode("ace/mode/python");
+    editor.setShowPrintMargin(false);
+    
+    var textarea = $('textarea[name="code"]');
+    editor.getSession().on("change", function () {
+      textarea.val(editor.getSession().getValue());
+    });
+  });
+  </script>
+{% endblock %}
