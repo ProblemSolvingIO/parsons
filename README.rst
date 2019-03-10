@@ -2,7 +2,7 @@
 Parsons Problem Webapp
 ======================
 
-From `*js-parsons*` <https://js-parsons.github.io/js/js-parsons/>`_:
+From *js-parsons*:
 
     Parsons programming puzzles are a type of scaffolded program
     construction tasks where the learner is given a set of code fragments,
