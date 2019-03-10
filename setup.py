@@ -21,6 +21,7 @@ setup(
         'flask',
         'flask_sqlalchemy',
         'python-dotenv',
+        'psycopg2',
     ],
     #    extras_require={
     #        'test': [
