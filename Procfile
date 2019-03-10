@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT app:create_app\(\)
+web: gunicorn -b 0.0.0.0:$PORT parsons:create_app\(\)
