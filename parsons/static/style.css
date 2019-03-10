@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
+  font-family: sans-serif;
   color: #377ba8;
   margin: 1rem 0;
 }
@@ -131,4 +131,9 @@ input.danger {
 input[type=submit] {
   align-self: start;
   min-width: 10em;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
 }

@@ -16,16 +16,90 @@
 {% endblock %}
 
 {% block content %}
-  <h1>{% block title %}Create Parsons Puzzle{% endblock %}</h1>
+  <h1>{% block title %}Parsons Puzzle{% endblock %}</h1>
 
-  <form method="post">
-    <label for="title">Title</label>
-    <input name="title" id="title" required>
-    <label for="code">Code</label>
-    <div id="editor"></div>
-    <textarea name="code" style="display: none;"></textarea>
-    <input type="submit" value="Save">
-  </form>
+  <div>
+    <h3>What are Prasons Puzzles?</h3>
+    From <a href="https://js-parsons.github.io/js/js-parsons/"><em>js-parsons</em>:</a>
+    <p>
+      Parsons programming puzzles are a type of scaffolded program
+      construction tasks where the learner is given a set of code fragments,
+      blocks of a single or multiple lines of code,
+      and the task is to piece together a program from these.
+      Learners not only select and order but also indent code fragments.
+      This variant of Parsons programming puzzles is called two-dimensional (2D) Parsons problems.
+      In Python, code indentation has a semantic meaning, as an indented statement falls into
+      the surrounding control structure, which has lower indentation.
+      That is, code blocks are deﬁned by indentation instead of start and end symbols like curly braces.
+    </p>
+    <p>
+      The use of Parsons puzzles is evident-based teaching practice.
+    </p>
+  </div>
+  
+  <div>
+    <h3>Instructions</h3>
+    <ol>
+      <li>
+        Write the tile and the code of a program in the following form.
+        Use a <code>#distractor</code> comment at the end of the line to set it a distractor.
+      </li>
+      <li>
+        Click on the <strong>Create Puzzle</strong> button to generate the puzzle.
+        You will be redirected to the puzzle page.
+        Copy the URL, and use it as is or embed it as IFrame in your course.
+        For example, you can embed a puzzle in a <em>Jupyter Notebook</em> code cell with:
+        <pre>
+          from IPython.display import IFrame
+          IFrame('&lt;puzzle url&gt;')
+        </pre>
+      </li>
+    </ol>
+
+  <div>
+    <h3>Create Parsons Puzzle</h3>
+
+    <form method="post">
+      <label for="title">Title</label>
+      <input name="title" id="title" required>
+      <label for="code">Code</label>
+      <div id="editor"></div>
+      <textarea name="code" style="display: none;"></textarea>
+      <input type="submit" value="Create Puzzle">
+    </form>
+  </div>
+
+  <div>
+    <h3>References</h3>
+    
+    <ul>
+      <li>Parsons, D., & Haden, P. (2006, January).
+        <a href="http://crpit.com/confpapers/CRPITV52Parsons.pdf">Parson's programming puzzles: a fun and effective learning tool for first programming courses</a>.
+        In Proceedings of the 8th Australasian Conference on Computing Education-Volume 52 (pp. 157-163).
+        Australian Computer Society, Inc.
+      </li>
+      <li>
+          Ihantola, P., & Karavirta, V. (2011).
+          <a href="http://jite.org/documents/Vol10/JITEv10IIPp119-132Ihantola944.pdf">Two-dimensional parson’s puzzles: The concept, tools, and first observations</a>.
+          Journal of Information Technology Education, 10, 119-132.
+      </li>
+      <li>
+        CS Teaching Tips - <a href="http://csteachingtips.org/tip/use-parson%E2%80%99s-puzzles-help-students-engage-concept-without-writing-code-or-experiencing">
+        Use Parson’s Puzzles
+        to help students engage with a concept
+        without writing code or experiencing frustrating syntax errors.</a>
+      </li>
+    </ul>
+  </div>
+
+  <footer>
+    Based on <a href="https://js-parsons.github.io/">js-parsons</a> and inspired by <a href="http://pythontutor.com">Python Tutor</a>.
+    <br />
+    <a href="https://github.com/ProblemSolvingIO/parsons">Get the code!</a>
+    <br />
+    © Shlomi Hod. <a href="https://github.com/ProblemSolvingIO/parsons/blob/master/LICENSE">MIT Licensed</a>.
+  </footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
