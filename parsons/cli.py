@@ -6,7 +6,10 @@ from parsons import db
 
 def init_db():
     """Clear existing data and create new tables."""
+    from parsons.models import Program
+    click.echo('Drop all...')
     db.drop_all()
+    click.echo('Create all...')
     db.create_all()
 
 
