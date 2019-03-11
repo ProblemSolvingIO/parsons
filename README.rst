@@ -15,7 +15,7 @@ From *js-parsons*:
     the surrounding control structure, which has lower indentation.
     That is, code blocks are deﬁned by indentation instead of start and end symbols like curly braces.
 
-The use of Parsons puzzles is evident-based teaching practice.
+The use of Parsons puzzles is an evidence-based teaching practice.
 
 Based on `js-parsons <https://js-parsons.github.io/>`_ and inspired by `Python Tutor <http://pythontutor.com>`_.
 
