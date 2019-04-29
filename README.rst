@@ -26,6 +26,9 @@ Example
 ``find_max`` function:
 http://parsons.problemsolving.io/puzzle/5f25ce927e9449c8af6a5edc295236ab
 
+Embedded in Jupyter Notebook (you need to run it locally):
+https://github.com/ProblemSolvingIO/parsons/blob/master/demo/find-max.ipynb
+
 References
 ----------
 1. Parsons, D., & Haden, P. (2006, January).
