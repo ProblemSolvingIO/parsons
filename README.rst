@@ -1,23 +1,30 @@
 ======================
 Parsons Problem Webapp
 ======================
+Parsons programming puzzles are a type of scaffolded program
+construction tasks where the learner is given a set of code fragments,
+blocks of a single or multiple lines of code,
+and the task is to piece together a program from these.
+Learners not only select and order but also indent code fragments.
 
-From *js-parsons*:
+They are challenging problems that reduces the cognitive load
+and time spent for students.
 
-    Parsons programming puzzles are a type of scaffolded program
-    construction tasks where the learner is given a set of code fragments,
-    blocks of a single or multiple lines of code,
-    and the task is to piece together a program from these.
+This variant of Parsons programming puzzles is called two-dimensional (2D) Parsons problems.
+In Python, code indentation has a semantic meaning, as an indented statement falls into
+the surrounding control structure, which has lower indentation.
+That is, code blocks are deﬁned by indentation instead of start and end symbols like curly braces.
 
-    Learners not only select and order but also indent code fragments.
-    This variant of Parsons programming puzzles is called two-dimensional (2D) Parsons problems.
-    In Python, code indentation has a semantic meaning, as an indented statement falls into
-    the surrounding control structure, which has lower indentation.
-    That is, code blocks are deﬁned by indentation instead of start and end symbols like curly braces.
+(from *js-parsons*)
 
 The use of Parsons puzzles is an evidence-based teaching practice.
 
 Based on `js-parsons <https://js-parsons.github.io/>`_ and inspired by `Python Tutor <http://pythontutor.com>`_.
+
+Example
+-------
+``find_max`` function:
+http://parsons.problemsolving.io/puzzle/5f25ce927e9449c8af6a5edc295236ab
 
 References
 ----------
@@ -32,7 +39,7 @@ References
 
 TODO
 ----
-- Use the better version of `Runstone <http://runestoneinteractive.org/build/html/directives/parsons.html>`_.
-- Add tests
-- Various view: stand-alone, embedded, LTI
-- Problem library
+- [  ] Use the better version of `Runstone <http://runestoneinteractive.org/build/html/directives/parsons.html>`_.
+- [  ] Various view: stand-alone, embedded, LTI
+- [  ] Problem library
+- [  ] Add tests
