@@ -9,6 +9,7 @@ flake8 = "*"
 [packages]
 gunicorn = "*"
 parsons = {editable = true,path = "."}
+sqlalchemy = "<1.4"
 
 [requires]
 python_version = "3.7.12"
