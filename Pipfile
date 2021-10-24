@@ -11,4 +11,4 @@ gunicorn = "*"
 parsons = {editable = true,path = "."}
 
 [requires]
-python_version = "3.7"
+python_version = "3.7.12"
