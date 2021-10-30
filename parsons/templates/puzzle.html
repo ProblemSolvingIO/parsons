@@ -37,7 +37,7 @@
         <script src="{{ url_for('static', filename='parsons.js') }}"></script>
         <script src="{{ url_for('static', filename='lis.js') }}"></script>
         <script>
-        var initial = {{ program['code']|tojson }}
+        var initial = atob("{{ program['code']|b64encode }}");
 
         function displayErrors(fb) {
             if(fb.errors.length > 0) {
