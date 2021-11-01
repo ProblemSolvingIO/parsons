@@ -22,6 +22,7 @@ setup(
         'flask_sqlalchemy',
         'python-dotenv',
         'psycopg2',
+        'jinja2-base64-filters',
     ],
     #    extras_require={
     #        'test': [
