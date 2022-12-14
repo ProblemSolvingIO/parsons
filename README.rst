@@ -24,7 +24,7 @@ Based on `js-parsons <https://js-parsons.github.io/>`_ and inspired by `Python T
 Example
 -------
 ``find_max`` function:
-http://parsons.problemsolving.io/puzzle/5f25ce927e9449c8af6a5edc295236ab
+http://parsons.problemsolving.io/puzzle/fe7eddfc65d445d8adbe21f43d029472
 
 Embedded in Jupyter Notebook (you need to run it locally):
 https://github.com/ProblemSolvingIO/parsons/blob/master/demo/find-max.ipynb
@@ -39,10 +39,3 @@ References
    `Two-dimensional parson’s puzzles: The concept, tools, and first observations <http://jite.org/documents/Vol10/JITEv10IIPp119-132Ihantola944.pdf>`_.
    Journal of Information Technology Education, 10, 119-132.
 3. `CS Teaching Tips - Use Parson’s Puzzles to help students engage with a concept without writing code or experiencing frustrating syntax errors <http://csteachingtips.org/tip/use-parson%E2%80%99s-puzzles-help-students-engage-concept-without-writing-code-or-experiencing>`_.
-
-TODO
-----
-- [  ] Use the better version of `Runstone <http://runestoneinteractive.org/build/html/directives/parsons.html>`_.
-- [  ] Various view: stand-alone, embedded, LTI
-- [  ] Problem library
-- [  ] Add tests
