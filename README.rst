@@ -24,7 +24,7 @@ Based on `js-parsons <https://js-parsons.github.io/>`_ and inspired by `Python T
 Example
 -------
 ``find_max`` function:
-http://parsons.problemsolving.io/puzzle/fe7eddfc65d445d8adbe21f43d029472
+http://parsons.problemsolving.io/puzzle/cbb39952d55a4be38f935c573a065f9f
 
 Embedded in Jupyter Notebook (you need to run it locally):
 https://github.com/ProblemSolvingIO/parsons/blob/master/demo/find-max.ipynb
